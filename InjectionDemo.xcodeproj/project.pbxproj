@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B1BA4B7B1FAB106900C75553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BA4B7A1FAB106900C75553 /* main.m */; };
+		B1BA4B861FAB110800C75553 /* Train.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BA4B851FAB110800C75553 /* Train.m */; };
+		B1BA4B891FAB113000C75553 /* Sedan.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BA4B881FAB113000C75553 /* Sedan.m */; };
+		B1BA4B8E1FAB123100C75553 /* InjectionProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BA4B8D1FAB123100C75553 /* InjectionProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B1BA4B771FAB106900C75553 /* Injection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Injection; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BA4B771FAB106900C75553 /* InjectionDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InjectionDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1BA4B7A1FAB106900C75553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1BA4B841FAB110800C75553 /* Train.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Train.h; sourceTree = "<group>"; };
+		B1BA4B851FAB110800C75553 /* Train.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Train.m; sourceTree = "<group>"; };
+		B1BA4B871FAB113000C75553 /* Sedan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sedan.h; sourceTree = "<group>"; };
+		B1BA4B881FAB113000C75553 /* Sedan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sedan.m; sourceTree = "<group>"; };
+		B1BA4B8C1FAB123100C75553 /* InjectionProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InjectionProxy.h; sourceTree = "<group>"; };
+		B1BA4B8D1FAB123100C75553 /* InjectionProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InjectionProxy.m; sourceTree = "<group>"; };
+		B1BA4B8F1FAB148100C75553 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +59,7 @@
 		B1BA4B781FAB106900C75553 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1BA4B771FAB106900C75553 /* Injection */,
+				B1BA4B771FAB106900C75553 /* InjectionDemo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				B1BA4B7A1FAB106900C75553 /* main.m */,
+				B1BA4B841FAB110800C75553 /* Train.h */,
+				B1BA4B851FAB110800C75553 /* Train.m */,
+				B1BA4B871FAB113000C75553 /* Sedan.h */,
+				B1BA4B881FAB113000C75553 /* Sedan.m */,
+				B1BA4B8F1FAB148100C75553 /* Car.h */,
+				B1BA4B8C1FAB123100C75553 /* InjectionProxy.h */,
+				B1BA4B8D1FAB123100C75553 /* InjectionProxy.m */,
 			);
 			path = Injection;
 			sourceTree = "<group>";
@@ -65,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1BA4B761FAB106900C75553 /* Injection */ = {
+		B1BA4B761FAB106900C75553 /* InjectionDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1BA4B7E1FAB106900C75553 /* Build configuration list for PBXNativeTarget "Injection" */;
+			buildConfigurationList = B1BA4B7E1FAB106900C75553 /* Build configuration list for PBXNativeTarget "InjectionDemo" */;
 			buildPhases = (
 				B1BA4B731FAB106900C75553 /* Sources */,
 				B1BA4B741FAB106900C75553 /* Frameworks */,
@@ -77,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = Injection;
+			name = InjectionDemo;
 			productName = Injection;
-			productReference = B1BA4B771FAB106900C75553 /* Injection */;
+			productReference = B1BA4B771FAB106900C75553 /* InjectionDemo */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B1BA4B721FAB106900C75553 /* Build configuration list for PBXProject "Injection" */;
+			buildConfigurationList = B1BA4B721FAB106900C75553 /* Build configuration list for PBXProject "InjectionDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1BA4B761FAB106900C75553 /* Injection */,
+				B1BA4B761FAB106900C75553 /* InjectionDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1BA4B8E1FAB123100C75553 /* InjectionProxy.m in Sources */,
+				B1BA4B891FAB113000C75553 /* Sedan.m in Sources */,
+				B1BA4B861FAB110800C75553 /* Train.m in Sources */,
 				B1BA4B7B1FAB106900C75553 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +268,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1BA4B721FAB106900C75553 /* Build configuration list for PBXProject "Injection" */ = {
+		B1BA4B721FAB106900C75553 /* Build configuration list for PBXProject "InjectionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1BA4B7C1FAB106900C75553 /* Debug */,
@@ -257,7 +277,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1BA4B7E1FAB106900C75553 /* Build configuration list for PBXNativeTarget "Injection" */ = {
+		B1BA4B7E1FAB106900C75553 /* Build configuration list for PBXNativeTarget "InjectionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1BA4B7F1FAB106900C75553 /* Debug */,

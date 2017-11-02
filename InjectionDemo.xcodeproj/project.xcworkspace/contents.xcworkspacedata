@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Injection.xcodeproj">
+      location = "self:/Users/rbbtsn0w/Documents/GitHub/Injection/InjectionDemo.xcodeproj">
    </FileRef>
 </Workspace>
